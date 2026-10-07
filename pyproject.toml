@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grasp-learning-cl"
+version = "0.1.0"
+description = "Continual learning helpers for grasp scoring workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "natsort",
+    "numpy",
+    "open3d",
+    "scikit-learn",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+include = ["grasp_learning_cl", "grasp_learning_cl.*"]
