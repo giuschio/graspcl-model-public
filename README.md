@@ -47,8 +47,9 @@ The paper code is split into reusable repositories:
 - **[Robot control and deployment](https://github.com/giuschio/simple-panda-grasp-public):**
   camera calibration, real-world perception, reachability checks, and grasp
   execution.
-- **Paper benchmark:** the top-level reproduction repository that combines the
-  components above and provides the paper experiments (coming soon).
+- **[Paper benchmark](https://github.com/giuschio/graspcl-benchmark-public):**
+  the top-level reproduction repository that combines the components above and
+  provides the paper experiments.
 
 For end-to-end reproduction, use the benchmark repository. This repository can
 also be used independently to train a model, generate grasp proposals, and
